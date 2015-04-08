@@ -1,0 +1,157 @@
+Dear S S,
+
+We regret to inform you that your paper
+
+#26 "Policy Iteration on Continuous Domains using Rapidly-exploring Random Trees"
+
+has been rejected from EWRL 2012.
+
+Each paper received at least 2 reviews followed by a discussion amongst the program committee. In the end, 43 out of 63 papers (68.25% acceptance rate) have been accepted for presentation at EWRL.
+
+Throughout the reviewing process, we tried to ensure that each paper receives a careful and fair evaluation. Many of these decisions were quite difficult and we hope that the comments of the program committee will give you valuable feedback and help you improve your paper.
+
+
+Kind regards,
+
+Marc Deisenroth
+Csaba Szepesvári
+Jan Peters
+
+
+----------------------- REVIEW 1 ---------------------
+PAPER: 26
+TITLE: Policy Iteration on Continuous Domains using Rapidly-exploring Random Trees
+AUTHORS: S S Manimaran and Balaraman Ravindran
+
+OVERALL RATING: 1 (weak accept)
+REVIEWER'S CONFIDENCE: 3 (high)
+
+> A Is this paper a Double-Submission?
+> Yes/No
+
+No.
+
+
+
+> B If the paper gets accepted, what do you recommend:
+> (i)   Long Talk + poster
+> (ii)  Short Talk + poster
+> (iii) Poster
+
+(ii) or (iii)
+
+
+> I Summary of the Paper
+
+The paper considers model-based reinforcement learning and proposes a combination of approximate policy iteration and RRTs. The RRTs are used to generate the sample transitions at each iteration and employ a weighting distribution which is derived from the value function iterate and a local optimal controller -- thus performing  policy improvement implicitly at each cycle.
+
+
+
+> II Contribution of the Paper
+
+The idea of combining API with RRT is -- to the best of my knowledge -- novel and original. However, in the current presentation some fundamental claims are made without being backed by theoretical arguments and proofs (e.g., that by using RRT in this way the policy is indeed improved at each iteration). The empirical evaluation is not overly convincing and does not consider other methods. In my view this limits the technical contribution of the paper. Nevertheless, I think that this work is only a first step in an ongoing research project and that the idea is original and interesting enough to merit presentation at EWRL.
+
+
+> III Clarity and Presentation
+
+OK, but I consider this to be only a first draft. Some important details are missing, e.g., details about the local approximate controller.
+
+
+
+> IV Relevance and Significance
+
+Highly relevant for EWRL.
+
+
+
+> V Strengths and Weaknesses
+
+Pros:
+
+- Interesting and original idea.
+
+- Works with continuous action spaces (or so the authors claim).
+
+Cons:
+
+- The two essential claims that using a sample generating PDF derived from the current value iterate  ensures that (1) the policy is improved at each step; and  (2) that in the limit exploration reaches every state are not obvious to me and need to proved or made more substantial by theoretical arguments.
+
+- Not overly convincing experimental evaluation. No comparison with other similar methods aimed at efficient sample generation.
+
+- It is unknown how to obtain the sampling distribution g. At present this is done by uniformly sampling V for the whole state space. This will become problematic in higher dimensional state spaces and again raises a question of how to gather samples best.
+
+- Not much is said about the local approximate controller other than that it must exist.
+
+- The method requires a generative model of the environment.
+
+
+> VI Open Questions and Detailed Comments
+
+- Exploration and poliy improvement are handled implicitly. This needs some more explanation of how and why it works.
+
+- I don't quite understand why the method can deal with stochastic transitions.
+
+- On page 6, 1st paragraph, you write that "RRST does not represent a single trajectory but several (corresponding to each leaf)." Clarify under what policy these trajectories are generated. Also, they are not strictly obtained under one fixed policy because there is no natural transition between the end point of one trajectory and the start of the next.
+
+- Some other work looking at "smart" sample generation in RL:
+
+(*) A. Nouri and M. Littman. Dimension reduction and its application to model-based exploration in continuous spaces. ECML, 2010
+
+(*) T. Jung and P. Stone. Gaussian processes for sample efficient reinforcement learning with RMAX-like exploration. ECML, 2010
+
+(*) M. Deisenroth, C. Rasmussen, and J. Peters. Gaussian process dynamic programming, Neurocomputing 72 (7-9), 2009
+
+(*) N. Jong and P. Stone. Model-based exploration in continuous state spaces. In: 7th Symp. on Abstraction, Reformulation and Approximation, 2007
+
+Some of these methods do not even require a generative model (because they learn a model online); the methods basically use the uncertainty of the model to decide where to explore next. These methods were shown to be highly sample efficient (in the typical ridiculously simple toy examples RL people love so much).
+
+
+> VII Summary of the Review
+
+Interesting idea. However, as far as it is possible to extrapolate from a draft, the research is yet not mature enough to warrant a full presentation. I think that a short presentation and/or poster would be the best way of presenting and discussing this work.
+
+
+----------------------- REVIEW 2 ---------------------
+PAPER: 26
+TITLE: Policy Iteration on Continuous Domains using Rapidly-exploring Random Trees
+AUTHORS: S S Manimaran and Balaraman Ravindran
+
+OVERALL RATING: -1 (weak reject)
+REVIEWER'S CONFIDENCE: 3 (high)
+
+A Is this paper a Double-Submission?
+No
+
+B If the paper gets accepted, what do you recommend:
+(i)   Long Talk + poster
+
+I Summary of the Paper
+This paper suggests RRTs can be employed for value function approximation.  The paper is clearly written and is technically correct, but I find that the method presented suffers from what I perceive to be a fatal flaw: it relies on the assumption (#2 in section 4) that the system is fully-actuated, and therefore every state can be reached from any other nearby state.  While this is the case for their example (puddle-world), this is not the case for any under-actuated problem, which is the category I consider relevant (such as locomotion, where the global position is not directly controllable).
+
+II Contribution of the Paper
+
+The paper discusses how to use RRT for biased sampling of the state space, but since I believe this cannot work for under-actuated systems, I feel this contribution is irrelevant in its current form.
+
+III Clarity and Presentation
+
+The paper is generally clearly written, despite several minor-to-insignificant grammatical and vocabulary eccentricities.  Yet, it is always important to remember that citations are parenthetical pointers, not grammatical entities, so a sentence like "In (Einstein, 1904), the theory of ..." is incorrect!
+
+IV Relevance and Significance
+
+I'm afraid I find this contribution non-productive.
+
+V Strengths and Weaknesses
+
+If there was a way to show how RRT can be used in underactuated spaces, then this would be great. Until then, this is the paper's biggest flaw in my eyes.
+
+VI Open Questions and Detailed Comments
+
+Can RRT be used in under-actuated domains?
+Also, the argument could be made stronger by comparing the results with a discretization of the domain (after all, puddle world can be discretized).
+
+VII Summary of the Review
+
+A well-written paper with a fatal flaw.
+
+
+

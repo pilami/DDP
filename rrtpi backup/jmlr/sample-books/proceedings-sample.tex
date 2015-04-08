@@ -1,0 +1,81 @@
+\documentclass[wcp,pdfxa]{jmlrbook}
+
+ % bookmark package shouldn't be used for print version
+\ifprint{}{\usepackage{bookmark}}
+
+ % Title is added to the PDF properties. Optional argument
+ % is used instead, if present.
+ %\title[Short Title]{Big Long Title}
+\title{Sample Proceedings}
+
+\author[Anne Editor et al.]{Anne Editor, Anne Other Editor and Nicola Talbot}
+
+\subtitle{\thejmlrworkshop}
+
+\jmlrvolume{42}
+\jmlryear{2010}
+\jmlrworkshop{Workshop on Causality}
+
+ % Write the pdf information if this is the print version and the 
+ % class option pdfxa has been set. Title and author should be set
+ % before this.
+\jmlrwritepdfinfo
+
+% inputenc with utf8 option must come after \jmlrwritepdfinfo
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+ % Packages used by imported articles:
+\usepackage{lipsum}
+
+\logo{\includegraphics{bookLogo}}
+
+\begin{document}
+\maketitle
+
+\frontmatter
+
+\chapter{Foreword}
+
+This is the foreword.
+
+\begin{authorsignoff}
+\Author{Nicola Talbot\\
+University of East Anglia}
+\end{authorsignoff}
+
+\begin{preface}
+
+This is the preface. To make a standalone document for the preface
+use the --extractpreface option when calling makejmlrbook.
+
+\begin{signoff}{March 2010}
+ % First editor:
+\Editor{Nicola Talbot\\
+University of East Anglia\\
+\mailto{N.Talbot@uea.ac.uk}}
+ % Second editor:
+\Editor{Anne Editor\\
+University of Nowhere\\
+\mailto{ae@sample.com}}
+\end{signoff}
+
+\end{preface}
+
+\tableofcontents
+
+\mainmatter
+
+\begin{jmlrpapers}
+  \addtocpart{Introduction}
+  % syntax: \importpaper[label]{directory}{filename}
+  \importpaper{paper1}{paper1}
+  \addtocpart{First Topic}
+  \importpaper{paper2}{paper2}
+  \importpaper{paper3}{paper3}
+  \addtocpart{Second Topic}
+  \importpaper{paper4}{paper4}
+\end{jmlrpapers}
+
+
+\end{document}

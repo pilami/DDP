@@ -1,0 +1,32 @@
+\begin{thebibliography}{1}
+
+\bibitem{antosml}
+{\sc A.~Antos, C.~Szepesvari, and R.~Munos}, {\em Learning near-optimal
+  policies with bellman-residual minimization based fitted policy iteration and
+  a single sample path}, Machine Learning, 71 (2006), pp.~89--129.
+
+\bibitem{chengrrt}
+{\sc P.~Cheng and S.~M. Lavalle}, {\em Reducing metric sensitivity in
+  randomized trajectory design}, in Proceedings of IEEE International
+  Conference on Intelligent Robots and Systems, 2001, pp.~43--48.
+
+\bibitem{karaman}
+{\sc S.~Karaman and E.~Frazzoli}, {\em Sampling-based algorithms for optimal
+  motion planning}, International Journal of Robotics Research, 30 (2011),
+  pp.~846--894.
+
+\bibitem{lspi}
+{\sc M.~G. Lagoudakis and R.~Parr}, {\em Least-squares policy iteration},
+  Journal of Machine Learning Research, 4 (2003), pp.~1107--1149.
+
+\bibitem{rrt}
+{\sc S.~M. Lavalle}, {\em Rapidly-exploring random trees: A new tool for path
+  planning}, tech. rep., Computer Science Dept, Iowa State University, 1998.
+
+\bibitem{rmaxlspi}
+{\sc L.~Li, M.~L. Littman, and C.~R. Mansley}, {\em Online exploration in
+  least-squares policy iteration}, in Proceedings of The 8th International
+  Conference on Autonomous Agents and Multiagent Systems - Volume 2, 2009,
+  pp.~733--739.
+
+\end{thebibliography}

@@ -1,0 +1,87 @@
+\relax 
+\ifx\hyper@anchor\@undefined
+\global \let \oldcontentsline\contentsline
+\gdef \contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global \let \oldnewlabel\newlabel
+\gdef \newlabel#1#2{\newlabelxx{#1}#2}
+\gdef \newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\let \contentsline\oldcontentsline
+\let \newlabel\oldnewlabel}
+\else
+\global \let \hyper@last\relax 
+\fi
+
+\bibstyle{plainnat}
+\citation{munosvariablehigh,partigame}
+\citation{rrt}
+\newlabel{jmlrstart}{{}{1}{\relax }{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.0.1}}
+\citation{karaman}
+\citation{heuristicrrt}
+\citation{transrrt,gradientrrt}
+\citation{jettebicycle}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{2}{section.0.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Preliminaries}{2}{section.0.3}}
+\citation{rlbook}
+\citation{neurodp}
+\newlabel{eq:Vbell}{{1}{3}{Preliminaries\relax }{equation.0.3.1}{}}
+\newlabel{eq:Vopt}{{2}{3}{Preliminaries\relax }{equation.0.3.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Approximate Policy Iteration}{3}{subsection.0.3.1}}
+\newlabel{sec:api}{{3.1}{3}{Approximate Policy Iteration\relax }{subsection.0.3.1}{}}
+\citation{rrt}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Rapidly-exploring Random Trees(RRTs)}{4}{subsection.0.3.2}}
+\newlabel{sec:rrt}{{3.2}{4}{Rapidly-exploring Random Trees(RRTs)\relax }{subsection.0.3.2}{}}
+\newlabel{fig:rrt}{{3.2}{4}{Rapidly-exploring Random Trees(RRTs)\relax }{subsection.0.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces RRT with 300 nodes grown in $(0,100)^2$ starting from (50,50)}}{4}{figure.1}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {1}{\ignorespaces ConstructRRT($s_{start},\tmspace  +\thinmuskip {.1667em}rrtsize$)}}{4}{algocfline.1}}
+\newlabel{alg:basicrrt}{{1}{4}{Rapidly-exploring Random Trees(RRTs)\relax }{algocfline.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}The Algorithms}{5}{section.0.4}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {2}{\ignorespaces ConstructRRST($p,rrtsize$)}}{5}{algocfline.2}}
+\newlabel{alg:rrst}{{2}{5}{RRST\relax }{algocfline.2}{}}
+\citation{partigame}
+\newlabel{fig:rrst}{{4}{6}{Evaluating the Value function\relax }{section*.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces A small RRST. This corresponds to a discretization of the original MDP.}}{6}{figure.2}}
+\newlabel{eq:poleval}{{3}{6}{Evaluating the Value function\relax }{equation.0.4.3}{}}
+\citation{rlbook}
+\citation{heuristicrrt}
+\newlabel{eq:polmax}{{4}{7}{Naive RRTPI\relax }{equation.0.4.4}{}}
+\citation{karaman}
+\citation{karaman}
+\newlabel{fig:case}{{4}{8}{Naive RRTPI\relax }{equation.0.4.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces States in the green branch of the tree have high value, whereas the ones on the red branch have low value. The value between the states marked by dotted line is not generalized well even when it is possible to connect them using the controller. }}{8}{figure.3}}
+\newlabel{fig:rrg}{{4}{9}{Naive RRTPI\relax }{figure.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Forming a DAG instead of a Tree. The DAG is shown in blue, the corresponding the Tree is shown in red.}}{9}{figure.4}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {3}{\ignorespaces ConstructRRSG($p,rrtsize$)}}{9}{algocfline.3}}
+\newlabel{alg:rrsg}{{3}{9}{Naive RRTPI\relax }{algocfline.3}{}}
+\newlabel{fig:iter1}{{4}{10}{RRTPI\relax }{section*.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces RRTPI solving a 2 dimensional gridworld. The gray region is an obstacle and the green box represents the goal regions.}}{10}{figure.5}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussions}{10}{section.0.5}}
+\newlabel{fig:val1}{{4}{11}{RRTPI\relax }{figure.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Heat map showing the value function learnt on the state space of the gridworld MDP}}{11}{figure.6}}
+\newlabel{fig:val1}{{5}{11}{Discussions\relax }{section.0.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The first iteration of the rrtpi algorithm on the mountain car domain}}{11}{figure.7}}
+\@writefile{loa}{\contentsline {algocf}{\numberline {4}{\ignorespaces RRTPI($rrtsize$)}}{12}{algocfline.4}}
+\newlabel{alg:rrtpi}{{4}{12}{RRTPI\relax }{algocfline.4}{}}
+\citation{munosvariablehigh}
+\citation{mcar}
+\citation{rlbook}
+\citation{karaman}
+\bibdata{rrtpi1}
+\bibcite{gradientrrt}{{1}{2011}{{Berenson et~al.}}{{Berenson, Simeon, and Srinivasa}}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experimental results}{13}{section.0.6}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion and Future Work}{13}{section.0.7}}
+\bibcite{neurodp}{{2}{1996}{{Bertsekas and Tsitsiklis}}{{}}}
+\bibcite{transrrt}{{3}{2010}{{Jaillet et~al.}}{{Jaillet, Cortés, and Siméon}}}
+\newlabel{fig:res1}{{6}{14}{Experimental results\relax }{section.0.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces RRTPI performs competitively on the standard mountain car domain}}{14}{figure.8}}
+\newlabel{fig:res2}{{6}{14}{Experimental results\relax }{figure.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces RRTPI performs competitively on the standard mountain car domain}}{14}{figure.9}}
+\bibcite{karaman}{{4}{2011}{{Karaman and Frazzoli}}{{}}}
+\bibcite{rrt}{{5}{1998}{{Lavalle}}{{}}}
+\bibcite{partigame}{{6}{1995}{{Moore and Atkeson}}{{}}}
+\bibcite{jettebicycle}{{7}{1998}{{Randl{\o }v and Alstr{\o }m}}{{}}}
+\bibcite{munosvariablehigh}{{8}{1999}{{Remi~Munos}}{{}}}
+\bibcite{mcar}{{9}{1996}{{Singh et~al.}}{{Singh, Sutton, and Kaelbling}}}
+\bibcite{rlbook}{{10}{1998}{{Sutton and Barto}}{{}}}
+\bibcite{heuristicrrt}{{11}{2003}{{Urmson and Simmons}}{{}}}
+\newlabel{jmlrend}{{7}{15}{end of RRTPI\relax }{section*.6}{}}

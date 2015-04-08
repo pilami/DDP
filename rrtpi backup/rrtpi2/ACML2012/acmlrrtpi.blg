@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: acmlrrtpi.aux
+The style file: plainnat.bst
+Database file #1: rrtpi1.bib
+You've used 11 entries,
+            2773 wiz_defined-function locations,
+            655 strings with 6590 characters,
+and the built_in function-call counts, 5016 in all, are:
+= -- 448
+> -- 236
+< -- 12
++ -- 80
+- -- 69
+* -- 362
+:= -- 737
+add.period$ -- 33
+call.type$ -- 11
+change.case$ -- 55
+chr.to.int$ -- 11
+cite$ -- 22
+duplicate$ -- 262
+empty$ -- 452
+format.name$ -- 92
+if$ -- 1087
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 12
+newline$ -- 63
+num.names$ -- 44
+pop$ -- 125
+preamble$ -- 1
+purify$ -- 45
+quote$ -- 0
+skip$ -- 203
+stack$ -- 0
+substring$ -- 193
+swap$ -- 50
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 111
+warning$ -- 0
+while$ -- 46
+width$ -- 0
+write$ -- 148

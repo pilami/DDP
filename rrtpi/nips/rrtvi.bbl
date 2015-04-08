@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{lspi}
+Michail~G. Lagoudakis and Ronald Parr.
+\newblock Least-squares policy iteration.
+\newblock {\em Journal of Machine Learning Research}, 4:1107--1149, 2003.
+
+\bibitem{uct}
+Levente Kocsis and Csaba Szepesvári.
+\newblock Bandit based monte-carlo planning.
+\newblock In {\em Proceedings of European Conference on Machine Learning 2006},
+  pages 282--293, 2006.
+
+\bibitem{rmaxlspi}
+Lihong Li, Michael~L. Littman, and Christopher~R. Mansley.
+\newblock Online exploration in least-squares policy iteration.
+\newblock In {\em Proceedings of The 8th International Conference on Autonomous
+  Agents and Multiagent Systems - Volume 2}, pages 733--739, 2009.
+
+\bibitem{pegasus}
+Andrew Ng and Michael Jordan.
+\newblock Pegasus: A policy search method for large mdps and pomdps.
+\newblock In {\em Proceedings of the Sixteenth Conference on Uncertainty in
+  Artificial Intelligence}, pages 406--415, 2000.
+
+\bibitem{rrt}
+Steven~M. Lavalle.
+\newblock Rapidly-exploring random trees: A new tool for path planning.
+\newblock Technical report, Computer Science Dept, Iowa State University, 1998.
+
+\bibitem{partigame}
+Andrew~W. Moore and Christopher~G. Atkeson.
+\newblock The parti-game algorithm for variable resolution reinforcement
+  learning in multidimensional state-spaces.
+\newblock {\em Machine Learning}, 21:199--233, 1995.
+
+\bibitem{rrtstar}
+Sertac Karaman and Emilio Frazzoli.
+\newblock Sampling-based algorithms for optimal motion planning.
+\newblock {\em International Journal of Robotics Research}, 30(7):846--894,
+  June 2011.
+
+\bibitem{rrtconnect}
+James~J. {Kuffner Jr.} and Steven~M. Lavalle.
+\newblock Rrt-connect: An efficient approach to single-query path planning.
+\newblock In {\em Proceedings of the IEEE International Conference on Robotics
+  and Automation}, pages 995--1001, 2000.
+
+\bibitem{bairdadvantage}
+Leemon~C. Baird.
+\newblock Advantage updating.
+\newblock Technical report, Wright Laboratory, 1993.
+
+\end{thebibliography}

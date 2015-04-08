@@ -1,0 +1,71 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Berenson et~al.(2011)Berenson, Simeon, and Srinivasa]{gradientrrt}
+Dmitry Berenson, Thierry Simeon, and Siddhartha Srinivasa.
+\newblock Addressing cost-space chasms in manipulation planning.
+\newblock In \emph{IEEE International Conference on Robotics and Automation
+  (ICRA '11)}, May 2011.
+
+\bibitem[Bertsekas and Tsitsiklis(1996)]{neurodp}
+Dimitri~P. Bertsekas and John~N. Tsitsiklis.
+\newblock \emph{{Neuro-Dynamic Programming (Optimization and Neural Computation
+  Series, 3)}}.
+\newblock {Athena Scientific}, May 1996.
+
+\bibitem[Jaillet et~al.(2010)Jaillet, Cortés, and Siméon]{transrrt}
+Léonard Jaillet, Juan Cortés, and T.~Siméon.
+\newblock Sampling-based path planning on configuration-space costmaps.
+\newblock \emph{IEEE Transactions on Robotics}, 26\penalty0 (4):\penalty0
+  635--646, August 2010.
+
+\bibitem[Karaman and Frazzoli(2011)]{karaman}
+Sertac Karaman and Emilio Frazzoli.
+\newblock Sampling-based algorithms for optimal motion planning.
+\newblock \emph{International Journal of Robotics Research}, 30\penalty0
+  (7):\penalty0 846--894, June 2011.
+
+\bibitem[Lavalle(1998)]{rrt}
+Steven~M. Lavalle.
+\newblock Rapidly-exploring random trees: A new tool for path planning.
+\newblock Technical report, Computer Science Dept, Iowa State University, 1998.
+
+\bibitem[Moore and Atkeson(1995)]{partigame}
+Andrew~W. Moore and Christopher~G. Atkeson.
+\newblock The parti-game algorithm for variable resolution reinforcement
+  learning in multidimensional state-spaces.
+\newblock \emph{Machine Learning}, 21:\penalty0 199--233, 1995.
+
+\bibitem[Randl{\o}v and Alstr{\o}m(1998)]{jettebicycle}
+Jette Randl{\o}v and Preben Alstr{\o}m.
+\newblock Learning to drive a bicycle using reinforcement learning and shaping.
+\newblock In \emph{Proceedings of the Fifteenth International Conference on
+  Machine Learning}, ICML '98, pages 463--471, 1998.
+
+\bibitem[Remi~Munos(1999)]{munosvariablehigh}
+Andrew~Moore Remi~Munos.
+\newblock Variable resolution discretizations for high-accuracy solutions of
+  optimal control problems.
+\newblock In \emph{Proceedings of the International Joint Conference on
+  Artificial Intelligence, Stockholm}, pages 1348--1355, 1999.
+
+\bibitem[Singh et~al.(1996)Singh, Sutton, and Kaelbling]{mcar}
+Satinder Singh, Richard~S. Sutton, and P.~Kaelbling.
+\newblock Reinforcement learning with replacing eligibility traces.
+\newblock In \emph{Machine Learning}, pages 123--158, 1996.
+
+\bibitem[Sutton and Barto(1998)]{rlbook}
+R.S. Sutton and A.G. Barto.
+\newblock \emph{Reinforcement learning: An introduction}, volume~28.
+\newblock MIT press, 1998.
+
+\bibitem[Urmson and Simmons(2003)]{heuristicrrt}
+Christopher Urmson and Reid Simmons.
+\newblock Approaches for heuristically biasing rrt growth.
+\newblock In \emph{IEEE/RSJ IROS 2003}, October 2003.
+
+\end{thebibliography}

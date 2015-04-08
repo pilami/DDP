@@ -1,0 +1,45 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: jmlrwcp-sample.aux
+The style file: plainnat.bst
+Database file #1: jmlr-sample.bib
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            603 strings with 5058 characters,
+and the built_in function-call counts, 885 in all, are:
+= -- 78
+> -- 51
+< -- 1
++ -- 17
+- -- 15
+* -- 72
+:= -- 147
+add.period$ -- 6
+call.type$ -- 2
+change.case$ -- 12
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 36
+empty$ -- 66
+format.name$ -- 19
+if$ -- 177
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 1
+newline$ -- 18
+num.names$ -- 8
+pop$ -- 17
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 0
+skip$ -- 29
+stack$ -- 0
+substring$ -- 31
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 22
+warning$ -- 0
+while$ -- 7
+width$ -- 0
+write$ -- 33
